@@ -4,58 +4,23 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Un título</title>
-  <!--Acá vamos a meter más metadatos, con la ayuda de https://megatags.co/-->
+  <!-- COMMON TAGS -->
+  <meta charset="utf-8">
+  <title>Pagina de Mari</title>
+  <!-- Search Engine -->
+  <meta name="description" content="Hola a todos !">
+  <meta name="image" content="https://scontent.fscl1-1.fna.fbcdn.net/v/t1.0-9/12592787_10208465285130620_7452052795939459005_n.jpg?oh=2e6e941c162f937d4f8011ac6b3a8fd3&oe=595AA546">
+  <!-- Schema.org for Google -->
+  <meta itemprop="name" content="Pagina de Mari">
+  <meta itemprop="description" content="Hola a todos !">
+  <meta itemprop="image" content="https://scontent.fscl1-1.fna.fbcdn.net/v/t1.0-9/12592787_10208465285130620_7452052795939459005_n.jpg?oh=2e6e941c162f937d4f8011ac6b3a8fd3&oe=595AA546">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta name="og:title" content="Pagina de Mari">
+  <meta name="og:description" content="Hola a todos !">
+  <meta name="og:type" content="website">
   <link href="normalize.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
   <style>
-    /* por el punto al principio del selector, esta es una regla para una clase de nombre container */
-      .container{padding:1em 2em; margin:0;}
-
-    /* acá defino una regla que se aplica a los elementos header, section, footer */
-      header, section, footer{padding:5px;}
-
-    /* acá defino una relga que se aplica solo al elemento footer, que se agrega a lo definido en la regla anterior */
-      footer{margin-top:2em; border-top:1px solid #ddd; font-size:90%;}
-
-    /* acá defino una regla que se aplica al título de tercer nivel cuando está dentro de section */
-        section h3{margin-top:3em;}
-
-    /* acá defino una regla que se aplica a la imagen cuando está dentro de section */
-      section img{max-width: 100%;}
-
-    /* acá defino una regla que se aplica a la table cuando está dentro de section */
-      section table{border-collapse: collapse; margin-bottom: 1.5em;}
-
-    /* acá defino una regla que se aplica a la thead dentro de la table cuando está dentro de section */
-      section table thead{background:#eee;}
-
-    /* ¿y qué pasa en este caso? */
-      section table td, section table th{
-      	border:1px solid #ccc;
-        padding:10px;
-        margin:0;
-        text-align: left;
-        font-size:90%;
-      }
-
-    /*
-      Cuando pedían permiso de niños,
-      iban su papá y él decía que NO,
-      luego iban con su mamá y ella les decía que SI,
-      entonces SI lo hacían.
-      De la misma forma se comporta CSS,
-      se queda con lo último que le dicen.
-      Eso lo aprovecho acá
-    */
-
-      section table td:first-child, section table th:first-child{
-        text-align: center;
-      }
-
-      section table td:last-child, section table th:last-child{
-        padding-right:40px;
-      }
-
     </style>
 
     <!--[if lt IE 9]>
@@ -67,35 +32,29 @@
 <body>
   <div class="container">
     <header>
-      <h1>Hola mundo!</h1>
-      <h2>Diseño y Nuevos Medios<br>
-      Segunda clase</h2>
+      <h1>Pagina de Mari</h1>
+      <h2>Una pagina muy bonita, simpatica<br>
+    Y AMOROSA</h2>
     </header>
     <section>
-      <h3>Este es un título de tercer nivel</h3>
-      <p>En <a href="http://lipsum.com/" target="_blank">lipsum.com</a> podemos obtener la cantidad de caracteres que queramos para un párrafo,
-        varios párrafos, listados, etc. En este caso le pedí 500 bytes: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Vestibulum ullamcorper odio at magna ornare, nec elementum enim feugiat. Suspendisse potenti. Suspendisse cursus neque a
-        magna congue pulvinar. Nulla interdum urna eget mauris laoreet rutrum. Proin eu lorem vel tellus mattis dapibus.
-        Proin lacinia orci sit amet iaculis vehicula. Aliquam sit amet euismod risus, sodales scelerisque diam. Nullam urna purus,
-        dictum sed ultricies eu, luctus quis est. Vestibulum arcu nibh, fringilla non posuere.</p>
+      <h3>Aqui se viene una foto de mi mascota, descripcion en idioma minion</h3>
+      <p> Minions ipsum jiji bee do bee do bee do jeje belloo! Po kass bee do bee do bee do bappleees hahaha potatoooo potatoooo. Tatata bala tu aaaaaah para tú poopayee ti aamoo! Hana dul sae baboiii hahaha. Jiji po kass jiji aaaaaah tulaliloo la bodaaa. Para tú po kass butt jeje ti aamoo! Pepete potatoooo tulaliloo hana dul sae wiiiii poulet tikka masala. Jiji me want bananaaa! Potatoooo la bodaaa baboiii uuuhhh ti aamoo! Poulet tikka masala belloo! Jiji gelatooo. Bananaaaa poulet tikka masala chasy daa.</p>
       <figure>
-        <img src="http://lorempixel.com/800/400/city/" alt="imagen random de 800 x 600">
+        <img src="Images/COCA.jpg" alt="perrita">
         <figcaption>También existe un "Loren Ipsum de imágenes", se llama <a href="http://lorempixel.com/" target="_blank">lorempixel.com</a></figcaption>
       </figure>
 
-      <h3>Podemos agregar otro título de tercer nivel</h3>
-      <p>Ahora escribo un párrafo para anunciar que se viene una <em>lista desordenada:</em></p>
+      <h3>Sigamos pasandolo bien</h3>
+      <p>Aca se vienen los nombres de mis mascotas </p>
       <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Nunc non mi vel arcu feugiat ullamcorper.</li>
-          <li>Curabitur in quam eu velit blandit interdum.</li>
+          <li>Lucky </li>
+          <li>Coca</li>
       </ul>
-      <p>Y si quiero una <em>lista ordenada</em>, queda así:</p>
+      <p>Ellos <em>son</em>, hermosos porque:</p>
       <ol>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Nunc non mi vel arcu feugiat ullamcorper.</li>
-          <li>Curabitur in quam eu velit blandit interdum.</li>
+          <li>Son hambrientos</li>
+          <li>Juguetones</li>
+          <li>Estan locos</li>
       </ol>
 
 <h3>Podemos agregar otro título de tercer nivel más</h3>
@@ -115,7 +74,7 @@
       <th>1</th>
       <td>DE LA HOZ ARMIJO</td>
       <td>JORDANNA DOMINICKE</td>
-      <td><a href="https://jordanna212.github.io/hello-world/">https://jordanna212.github.io/hello-world/</a></td>
+      <td><a href="https://jordanna212.github.io/hello-world/" target="_blank" title="pagina de github">https://jordanna212.github.io/hello-world/</a></td>
     </tr>
     <tr>
       <th>2</th>
@@ -178,7 +137,7 @@
 
 </section>
 <footer>
-<p><a href="mailto:tucorreo@uc.cl">Nombre Apellido</a> | 15 de marzo, 2017</p>
+<p><a href="mailto: micampos1@uc.cl">Mariela Campos</a> | 15 de marzo, 2017</p>
 </footer>
 </div>
 
